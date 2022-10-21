@@ -46,6 +46,10 @@ disable_search: true
 
 Disabling search will remove the search box at the top.
 
+### Cuestionario
+
+{% include quiz.html file='asignatura1-tema1' %}
+
 ## Tema 2
 
 Initially (on OS X), you will need to setup [Brew](http://brew.sh/) which is a package manager for OS X and [Git](https://git-scm.com/). To install Brew and Git, run the following commands:
