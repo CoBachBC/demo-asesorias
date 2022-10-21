@@ -1,12 +1,12 @@
-- title: "Getting Started"
+- title: "Asignatura 1"
   url: "docs/asignatura1"
   children:
-    - title: Features
-      url: "docs/asignatura1#getting-started"
-    - title: Development
-      url: "docs/asignatura1#development"
-    - title: Customization
-      url: "docs/asignatura1#customization"
+    - title: Tema 1
+      url: "docs/asignatura1#tema-1"
+    - title: Tema 2
+      url: "docs/asignatura1#tema-2"
+    - title: Tema 3
+      url: "docs/asignatura1#tema-3"
 - title: "Extras"
   url: "docs/extras"
   children:
