@@ -20,6 +20,8 @@ author: Tecnología Educativa CoBach BC
 description: > # this means to ignore newlines until "baseurl:"
   Sitio demo para material didáctico para asesorías fuera de línea.
 
+
+
 # DO NOT CHANGE THE LINE OF THIS FILE without editing .circleci/circle_urls.sh
 baseurl: "/demo-asesorias" # the subpath of your site, e.g. /blog
 
