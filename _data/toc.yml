@@ -12,7 +12,3 @@
   children:
     - title: Quizzes
       url: "docs/extras/example-quiz"
-    - title: Discussion Forum
-      url: "forum"
-    - title: Interactive Code
-      url: "docs/extras/interactive"
