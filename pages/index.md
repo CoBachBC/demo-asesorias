@@ -18,5 +18,5 @@ Puedes descargar una copia de este sitio completo y consultarlo en su totalidad 
 
 - Un dispositivo móvil, tableta, o laptop.
 - Instalar la aplicación Kiwix
-- Descargar el archivo ZIM de este sitio
+- [Descargar el archivo ZIM](assets/demo-asesorias.zim) de este sitio
 - Abrir el archivo ZIM en tu dispositivo móvil, tableta, o laptop usando la aplicación Kiwix que instalaste
