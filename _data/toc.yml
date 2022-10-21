@@ -1,12 +1,12 @@
 - title: "Getting Started"
-  url: "docs/getting-started"
+  url: "docs/asignatura1"
   children:
     - title: Features
-      url: "docs/getting-started#getting-started"
+      url: "docs/asignatura1#getting-started"
     - title: Development
-      url: "docs/getting-started#development"
+      url: "docs/asignatura1#development"
     - title: Customization
-      url: "docs/getting-started#customization"
+      url: "docs/asignatura1#customization"
 - title: "Extras"
   url: "docs/extras"
   children:
