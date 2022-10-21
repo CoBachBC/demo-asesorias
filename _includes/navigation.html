@@ -23,6 +23,8 @@
                         <span class=md-header-nav__topic>{{ page.title }}</span>
                     </div>
                 </div>
+
+                {% comment %}
                 <div class="md-flex__cell md-flex__cell--shrink">
                     {% if page.disable_search %}{% else %}<label class="md-icon md-icon--search md-header-nav__button" for=__search></label>
                     <div class=md-search data-md-component=search role=dialog>
@@ -44,6 +46,8 @@
                         </div>
                     </div>{% endif %}
                 </div>
+                {% endcomment %}
+
       <div class="md-flex__cell md-flex__cell--shrink">
         <div class="md-header-nav__source">
           <a class="md-source" data-md-source="github" href="{{ site.repo }}" title="Go to repository">
