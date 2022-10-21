@@ -16,7 +16,5 @@
       url: "forum"
     - title: Interactive Code
       url: "docs/extras/interactive"
-- title: "About"
-  url: "about"
 - title: "News"
   url: "news"
