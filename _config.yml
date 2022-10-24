@@ -42,7 +42,6 @@ exclude:
    - package-lock.json
    - Rakefile
    - README.md
-   - docs/
 
 # Set a path/url to a logo that will be displayed instead of the title
 #logo: "/assets/images/just-the-docs.png"
