@@ -1,21 +1,23 @@
 ---
 layout: default
-title: Home
+title: 1er. Semestre
 nav_order: 1
-description: "Just the Docs is a responsive Jekyll theme with built-in search that is easily customizable and hosted on GitHub Pages."
+description: "Material didáctico de reforzamiento"
 permalink: /
 ---
 
-# Focus on writing good documentation.
+# Material didáctico de reforzamiento
 {: .fs-9 }
 
+{% comment %}
 Just the Docs gives your documentation a jumpstart with a responsive Jekyll theme that is easily customizable and hosted on GitHub Pages.
 {: .fs-6 .fw-300 }
 
 [Get started now](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [View it on GitHub](https://github.com/just-the-docs/just-the-docs){: .btn .fs-5 .mb-4 .mb-md-0 }
+{% endcomment %}
 
 ---
-
+{% comment %}
 {: .new }
 > **Pre-release version `0.4.0.rc3` is available!**
 > See [the CHANGELOG]({{ site.baseurl }}{% link CHANGELOG.md %}) for a detailed breakdown.
@@ -30,6 +32,7 @@ Just the Docs gives your documentation a jumpstart with a responsive Jekyll them
 > ```yaml
 > remote_theme: just-the-docs/just-the-docs@v0.4.0.rc3
 > ```
+{% endcomment %}
 
 ## Getting started
 
