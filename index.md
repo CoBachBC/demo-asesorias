@@ -48,6 +48,15 @@ Just the Docs gives your documentation a jumpstart with a responsive Jekyll them
 
 ---
 
+## Descarga
+
+Baja una copia de este sitio para poder consultar toda la información sin usar tus datos:
+
+1. Descarga en tu celular, tableta, o laptop la aplicación [Kiwix](https://www.kiwix.org/en/download/)
+1. Descarga en ese mismo dispositivo [el archivo ZIM de este sitio](/assets/demo-asesorias.zim)
+1. Abre Kiwix y ubica el archivo que descargaste
+1. Ahora puedes consultar toda la información que ves aquí fuera de línea
+
 ## Acerca del proyecto
 
 &copy; {{ "now" | date: "%Y" }} por el Departamento de Informática de Colegio de Bachilleres del Estado de Baja California.
