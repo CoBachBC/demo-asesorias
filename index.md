@@ -36,15 +36,15 @@ Just the Docs gives your documentation a jumpstart with a responsive Jekyll them
 
 ## Materia 1
 
-[Ver temas](){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[Ver temas](/materia-1){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 
 ## Materia 2
 
-[Ver temas](){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[Ver temas](/materia-2){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 
 ## Materia 3
 
-[Ver temas](){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[Ver temas](/materia-3){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 
 ---
 
