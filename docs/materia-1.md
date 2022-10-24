@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Materia 1
-nav_order: 2
+nav_order: 7
 ---
 
 # Materia 1
