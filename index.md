@@ -12,6 +12,8 @@ permalink: /
 {% comment %}
 Just the Docs gives your documentation a jumpstart with a responsive Jekyll theme that is easily customizable and hosted on GitHub Pages.
 {: .fs-6 .fw-300 }
+[Get started now](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [View it on GitHub](https://github.com/just-the-docs/just-the-docs){: .btn .fs-5 .mb-4 .mb-md-0 }
+{% endcomment %}
 
 ## Descarga
 
@@ -21,9 +23,6 @@ Baja una copia de este sitio para poder consultar toda la información sin usar 
 1. Descarga en ese mismo dispositivo [el archivo ZIM de este sitio](assets/demo-asesorias.zim)
 1. Abre Kiwix y ubica el archivo que descargaste
 1. Ahora puedes consultar toda la información que ves aquí fuera de línea
-
-[Get started now](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [View it on GitHub](https://github.com/just-the-docs/just-the-docs){: .btn .fs-5 .mb-4 .mb-md-0 }
-{% endcomment %}
 
 ---
 {% comment %}
