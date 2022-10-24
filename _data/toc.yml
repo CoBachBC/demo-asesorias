@@ -1,9 +1,0 @@
-- title: "Asignatura 1"
-  url: "docs/asignatura1"
-  children:
-    - title: Tema 1
-      url: "docs/asignatura1#tema-1"
-    - title: Tema 2
-      url: "docs/asignatura1#tema-2"
-    - title: Tema 3
-      url: "docs/asignatura1#tema-3"
