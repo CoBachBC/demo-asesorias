@@ -1,16 +1,16 @@
 ---
 layout: default
-title: Configuration
-nav_order: 2
+title: Materia 2
+nav_order: 3
 ---
 
-# Configuration
+# Materia 1
 {: .no_toc }
 
 Just the Docs has some specific configuration parameters that can be defined in your Jekyll site's \_config.yml file.
 {: .fs-6 .fw-300 }
 
-## Table of contents
+## Tabla de contenidos
 {: .no_toc .text-delta }
 
 1. TOC
@@ -20,14 +20,14 @@ Just the Docs has some specific configuration parameters that can be defined in 
 
 View this site's [\_config.yml](https://github.com/just-the-docs/just-the-docs/tree/main/_config.yml) file as an example.
 
-## Site logo
+## Tema 1
 
 ```yaml
 # Set a path/url to a logo that will be displayed instead of the title
 logo: "/assets/images/just-the-docs.png"
 ```
 
-## Search
+## Tema 2
 
 ```yaml
 # Enable or disable the site search
@@ -59,7 +59,7 @@ search:
   button: false
 ```
 
-## Mermaid Diagrams
+## Tema 3
 
 The minimum configuration requires the key for `version` ([from jsDelivr](https://cdn.jsdelivr.net/npm/mermaid/)) in `_config.yml`:
 
@@ -72,7 +72,7 @@ mermaid:
 
 See [the Code documentation]({{ site.baseurl }}{% link docs/ui-components/code.md %}#mermaid-diagram-code-blocks) for more configuration options and information.
 
-## Aux links
+## Tema 4
 
 ```yaml
 # Aux links for the upper right navigation
@@ -84,7 +84,7 @@ aux_links:
 aux_links_new_tab: false
 ```
 
-## Heading anchor links
+## Tema 5
 
 ```yaml
 # Heading anchor links appear on hover over h1-h6 tags in page content
@@ -94,12 +94,12 @@ aux_links_new_tab: false
 heading_anchors: true
 ```
 
-## External navigation links
+## Tema 6
 
 External links can be added to the navigation through the `nav_external_links` option.
 See [Navigation Structure]({{ site.baseurl }}{% link docs/navigation-structure.md %}#external-navigation-links) for more details.
 
-## Footer content
+## Tema 7
 
 ```yaml
 # Footer content
@@ -129,149 +129,3 @@ _note: `footer_content` is deprecated, but still supported. For a better experie
 - `gh_edit_branch` is the branch that the docs site is served from; defaults to `main`
 - `gh_edit_source` is the source directory that your project files are stored in (should be the same as [site.source](https://jekyllrb.com/docs/configuration/options/))
 - `gh_edit_view_mode` is `"tree"` by default, which brings the user to the github page; switch to `"edit"` to bring the user directly into editing mode
-
-## Color scheme
-
-```yaml
-# Color scheme supports "light" (default) and "dark"
-color_scheme: dark
-```
-
-<button class="btn js-toggle-dark-mode">Preview dark color scheme</button>
-
-<script>
-const toggleDarkMode = document.querySelector('.js-toggle-dark-mode');
-
-jtd.addEvent(toggleDarkMode, 'click', function(){
-  if (jtd.getTheme() === 'dark') {
-    jtd.setTheme('light');
-    toggleDarkMode.textContent = 'Preview dark color scheme';
-  } else {
-    jtd.setTheme('dark');
-    toggleDarkMode.textContent = 'Return to the light side';
-  }
-});
-</script>
-
-See [Customization]({{ site.baseurl }}{% link docs/customization.md %}) for more information.
-
-## Callouts
-
-To use this feature, you need to configure a `color` and (optionally) `title` for each kind of callout you want to use, e.g.:
-
-```yaml
-callouts:
-  warning:
-    title: Warning
-    color: red
-```
-
-This uses the color `$red-000` for the background of the callout, and `$red-300` for the title and box decoration.[^dark] You can then style a paragraph as a `warning` callout like this:
-
-```markdown
-{: .warning }
-A paragraph...
-```
-
-[^dark]:
-    If you use the `dark` color scheme, this callout uses `$red-300` for the background, and `$red-000` for the title.
-
-The colors `grey-lt`, `grey-dk`, `purple`, `blue`, `green`, `yellow`, and `red` are predefined; to use a custom color, you need to define its `000` and `300` levels in your SCSS files. For example, to use `pink`, add the following to your `_sass/custom/custom.scss` file:
-
-```scss
-$pink-000: #f77ef1;
-$pink-100: #f967f1;
-$pink-200: #e94ee1;
-$pink-300: #dd2cd4;
-```
-
-You can override the default `opacity` of the background for a particular callout, e.g.:
-
-```yaml
-callouts:
-  custom:
-    color: pink
-    opacity: 0.3
-```
-
-You can change the default opacity (`0.2`) for all callouts, e.g.:
-
-```yaml
-callouts_opacity: 0.3
-```
-
-You can also adjust the overall level of callouts.
-The value of `callouts_level` is either `quiet` or `loud`;
-`loud` increases the saturation and lightness of the backgrounds.
-The default level is `quiet` when using the `light` or custom color schemes,
-and `loud` when using the `dark color scheme.`
-
-See [Callouts]({{ site.baseurl }}{% link docs/ui-components/callouts.md %}) for more information.
-
-## Google Analytics
-
-```yaml
-# Google Analytics Tracking (optional)
-# e.g, UA-1234567-89
-ga_tracking: UA-5555555-55
-ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (true by default)
-```
-
-## Document collections
-
-By default, the navigation and search include normal [pages](https://jekyllrb.com/docs/pages/).
-You can also use [Jekyll collections](https://jekyllrb.com/docs/collections/) which group documents semantically together.
-
-For example, put all your test files in the `_tests` folder and create the `tests` collection:
-
-```yaml
-# Define Jekyll collections
-collections:
-  # Define a collection named "tests", its documents reside in the "_tests" directory
-  tests:
-    permalink: "/:collection/:path/"
-    output: true
-
-just_the_docs:
-  # Define which collections are used in just-the-docs
-  collections:
-    # Reference the "tests" collection
-    tests:
-      # Give the collection a name
-      name: Tests
-      # Exclude the collection from the navigation
-      # Supports true or false (default)
-      # nav_exclude: true
-      # Fold the collection in the navigation
-      # Supports true or false (default)
-      # nav_fold: true
-      # Exclude the collection from the search
-      # Supports true or false (default)
-      # search_exclude: true
-```
-
-The navigation for all your normal pages (if any) is displayed before those in collections.
-
-You can reference multiple collections.
-This creates categories in the navigation with the configured names.
-
-```yaml
-collections:
-  tests:
-    permalink: "/:collection/:path/"
-    output: true
-  tutorials:
-    permalink: "/:collection/:path/"
-    output: true
-
-just_the_docs:
-  collections:
-    tests:
-      name: Tests
-    tutorials:
-      name: Tutorials
-```
-
-When *all* your pages are in a single collection, its name is not displayed.
-
-The navigation for each collection is a separate name space for page titles: a page in one collection cannot be a child of a page in a different collection, or of a normal page.
