@@ -7,8 +7,10 @@ nav_order: 3
 # Materia 3
 {: .no_toc }
 
+{% comment %}
 BLOQUE I. CONCEPTOS BÁSICOS DE INFORMÁTICA Y CIUDADANÍA DIGITAL
 {: .fs-6 .fw-300 }
+{% endcomment %}
 
 ## Tabla de contenidos
 {: .no_toc .text-delta }
