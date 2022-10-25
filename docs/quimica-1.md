@@ -22,7 +22,7 @@ nav_order: 2
 
 El método científico es una metodología para obtener nuevos conocimientos, que ha caracterizado históricamente a la ciencia, y que consiste en la observación sistemática, medición, experimentación, y la formulación, análisis y modificación de hipótesis.
 
-![El método científico](demo-asesorias/assets/images/quimica-1-bloque-1-01.jpg "El método científico")
+![El método científico](/demo-asesorias/assets/images/quimica-1-bloque-1-01.jpg "El método científico")
 
 ## BLOQUE II. INTERRELACIÓN ENTRE MATERIA Y ENERGÍA 
 
@@ -34,7 +34,7 @@ El término energía tiene diversas acepciones y definiciones, relacionadas con 
 
 La transformación por la polvoramnenergética, transformación de la energía, conversión energética o conversión de la energía es el proceso de cambiar la energía de un tipo de energía a otro. En física, la energía es una cantidad que proporciona la capacidad de realizar un trabajo (por ejemplo, levantar un objeto) o proporciona calor. Además de ser convertible, de acuerdo con la ley de conservación de la energía, la energía es transferible a una ubicación u objeto diferente, pero no se puede crear ni destruir.
 
-![Transformación de la energía](demo-asesorias/assets/images/quimica-1-bloque-2-01.gif "Transformación de la energía")
+![Transformación de la energía](/demo-asesorias/assets/images/quimica-1-bloque-2-01.gif "Transformación de la energía")
 
 ## BLOQUE III. MODELO ATÓMICO Y APLICACIONES
 
@@ -42,7 +42,7 @@ La transformación por la polvoramnenergética, transformación de la energía, 
 
 Una partícula subatómica es aquella que es más pequeña que el átomo. Puede ser una partícula elemental o una compuesta, a su vez, por otras partículas, como los quarks que componen los protones y los neutrones.
 
-![Modelo atómico](demo-asesorias/assets/images/quimica-1-bloque-3-01.png "Modelo atómico")
+![Modelo atómico](/demo-asesorias/assets/images/quimica-1-bloque-3-01.png "Modelo atómico")
 
 ### Números cuánticos
 
@@ -59,7 +59,7 @@ Se denomina isótopos a los átomos de un mismo elemento, cuyos núcleos tienen 
 
 La tabla periódica de los elementos es una disposición de los elementos químicos en forma de tabla, ordenados por su número atómico,​ por su configuración de electrones y sus propiedades químicas. Este ordenamiento muestra tendencias periódicas como elementos con comportamiento similar en la misma columna.
 
-![Tabla periódica](demo-asesorias/assets/images/quimica-1-bloque-4-01.png "Tabla periódica")
+![Tabla periódica](/demo-asesorias/assets/images/quimica-1-bloque-4-01.png "Tabla periódica")
 
 ##  BLOQUE V. ENLACES QUÍMICOS E INTERACCIONES INTERMOLECULARES
 
@@ -67,13 +67,13 @@ La tabla periódica de los elementos es una disposición de los elementos quími
 
 Un enlace químico es el proceso químico responsable de las interacciones atractivas entre átomos y moléculas,​y que confiere estabilidad a los compuestos químicos diatómicos y poliatómicos. La explicación de tales fuerzas atractivas es un área compleja que está descrita por las leyes de la química cuántica.
 
-![Enlace químico](demo-asesorias/assets/images/quimica-1-bloque-5-01.png "Enlace químico")
+![Enlace químico](/demo-asesorias/assets/images/quimica-1-bloque-5-01.png "Enlace químico")
 
 ### Enlace iónico
 
 Un enlace iónico o electrovalente​ es el resultado de la presencia de atracción electrostática entre los iones de distinto signo respecto a las valencias de los elementos y el número de electrones que deben perder o ganar para completar las capas, es decir, uno fuertemente electropositivo y otro fuertemente electronegativo.​ Eso se da cuando en el enlace, uno de los átomos capta electrones del otro.
 
-![Enlace iónico](demo-asesorias/assets/images/quimica-1-bloque-5-02.png "Enlace iónico")
+![Enlace iónico](/demo-asesorias/assets/images/quimica-1-bloque-5-02.png "Enlace iónico")
 
 ## BLOQUE VI. NOMENCLATURA DE COMPUESTOS INORGÁNICOS
 
@@ -99,4 +99,4 @@ Una ecuación química es la descripción simbólica de una reacción química. 
 
 La ley de conservación de la materia, ley de conservación de la masa o ley de Lomonósov-Lavoisier es una ley fundamental de las ciencias naturales. Fue elaborada independientemente por Mijaíl Lomonósov en 1748 y descubierta unos años después por Antoine Lavoisier en 1785.
 
-![Ley de la conservación de la materia](demo-asesorias/assets/images/quimica-1-bloque-6-01.png "Ley de la conservación de la materia")
+![Ley de la conservación de la materia](/demo-asesorias/assets/images/quimica-1-bloque-6-01.png "Ley de la conservación de la materia")
