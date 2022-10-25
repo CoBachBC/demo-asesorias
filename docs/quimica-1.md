@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Química I
+title: DEMO - Química I
 nav_order: 2
 ---
 
