@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 1er. Semestre
+title: Bienvenid@
 nav_order: 1
 description: "Material didáctico de reforzamiento"
 permalink: /
