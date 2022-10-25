@@ -48,8 +48,8 @@ Baja una copia de este sitio para poder consultar toda la información sin usar 
 
 ## Química I
 
-[Ver temas](docs/materia-2){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[Ver temas](docs/quimica-1){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 
 ## Informática I
 
-[Ver temas](docs/materia-3){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[Ver temas](docs/informatica-1){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
