@@ -24,7 +24,7 @@ BLOQUE I. CONCEPTOS BÁSICOS DE INFORMÁTICA Y CIUDADANÍA DIGITAL
 
 ### Hardware y software
 
-Explicación de las definiciones de hardware y software de una manera fácil y sencilla donde se aclaran las dudas mas comunes en estos conceptos básicos de informatica.
+Explicación de las definiciones de hardware y software de una manera fácil y sencilla donde se aclaran las dudas mas comunes en estos conceptos básicos de informática.
 
 ### Ciudadanía digital
 
