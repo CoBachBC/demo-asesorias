@@ -16,8 +16,6 @@ nav_order: 2
 
 ---
 
-View this site's [\_config.yml](https://github.com/just-the-docs/just-the-docs/tree/main/_config.yml) file as an example.
-
 ## BLOQUE I. QUÍMICA COMO HERRAMIENTA DE LA VIDA
 
 ### Método científico
