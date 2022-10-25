@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Materia 3
+title: DEMO - Informática I
 nav_order: 3
 ---
 
 # Materia 3
 {: .no_toc }
 
-Just the Docs has some specific configuration parameters that can be defined in your Jekyll site's \_config.yml file.
+BLOQUE I. CONCEPTOS BÁSICOS DE INFORMÁTICA Y CIUDADANÍA DIGITAL
 {: .fs-6 .fw-300 }
 
 ## Tabla de contenidos
@@ -18,114 +18,32 @@ Just the Docs has some specific configuration parameters that can be defined in 
 
 ---
 
-View this site's [\_config.yml](https://github.com/just-the-docs/just-the-docs/tree/main/_config.yml) file as an example.
+## BLOQUE I. CONCEPTOS BÁSICOS DE INFORMÁTICA Y CIUDADANÍA DIGITAL
 
-## Tema 1
+### Hardware y software
 
-```yaml
-# Set a path/url to a logo that will be displayed instead of the title
-logo: "/assets/images/just-the-docs.png"
-```
+Explicación de las definiciones de hardware y software de una manera fácil y sencilla donde se aclaran las dudas mas comunes en estos conceptos básicos de informatica.
 
-## Tema 2
+### Ciudadanía digital
 
-```yaml
-# Enable or disable the site search
-# Supports true (default) or false
-search_enabled: true
+Ciudadanía digital aunque el propio concepto se considera en proceso de definición permanente a medida que evolucionan las posibilidades de la tecnología.
 
-search:
-  # Split pages into sections that can be searched individually
-  # Supports 1 - 6, default: 2
-  heading_level: 2
-  # Maximum amount of previews per search result
-  # Default: 3
-  previews: 3
-  # Maximum amount of words to display before a matched word in the preview
-  # Default: 5
-  preview_words_before: 5
-  # Maximum amount of words to display after a matched word in the preview
-  # Default: 10
-  preview_words_after: 10
-  # Set the search token separator
-  # Default: /[\s\-/]+/
-  # Example: enable support for hyphenated search words
-  tokenizer_separator: /[\s/]+/
-  # Display the relative url in search results
-  # Supports true (default) or false
-  rel_url: true
-  # Enable or disable the search button that appears in the bottom right corner of every page
-  # Supports true or false (default)
-  button: false
-```
+### Segudirad digital
 
-## Tema 3
+La seguridad informática, también conocida como ciberseguridad,​ es el área relacionada con la informática y la telemática que se enfoca en la protección de la infraestructura computacional y todo lo vinculado con la misma, y especialmente la información contenida en una computadora o circulante a través de las redes de computadoras.
 
-The minimum configuration requires the key for `version` ([from jsDelivr](https://cdn.jsdelivr.net/npm/mermaid/)) in `_config.yml`:
+## BLOQUE II. INTERNET 
 
-```yaml
-mermaid:
-  # Version of mermaid library
-  # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
-  version: "9.1.3"
-```
+### Navegadores
 
-See [the Code documentation]({{ site.baseurl }}{% link docs/ui-components/code.md %}#mermaid-diagram-code-blocks) for more configuration options and information.
+Un navegador web es un software, aplicación o programa que permite el acceso a la Web, interpretando la información de distintos tipos de archivos y sitios web para que estos puedan ser vistos. La funcionalidad básica de un navegador web es permitir la visualización de documentos de texto, posiblemente con recursos multimedia incrustados.
 
-## Tema 4
+### La nube
 
-```yaml
-# Aux links for the upper right navigation
-aux_links:
-  "Just the Docs on GitHub":
-    - "//github.com/just-the-docs/just-the-docs"
+Técnicamente la nube, que viene del inglés Cloud computing, es el nombre que se le dio al procesamiento y almacenamiento masivo de datos en servidores que alojen la información del usuario.
 
-# Makes Aux links open in a new tab. Default is false
-aux_links_new_tab: false
-```
+## BLOQUE III. HERRAMIENTAS BÁSICAS DE SOFTWARE DE APLICACIÓN
 
-## Tema 5
+### Hojas de cálculo
 
-```yaml
-# Heading anchor links appear on hover over h1-h6 tags in page content
-# allowing users to deep link to a particular heading on a page.
-#
-# Supports true (default) or false
-heading_anchors: true
-```
-
-## Tema 6
-
-External links can be added to the navigation through the `nav_external_links` option.
-See [Navigation Structure]({{ site.baseurl }}{% link docs/navigation-structure.md %}#external-navigation-links) for more details.
-
-## Tema 7
-
-```yaml
-# Footer content
-# appears at the bottom of every page's main content
-# Note: The footer_content option is deprecated and will be removed in a future major release. Please use `_includes/footer_custom.html` for more robust
-markup / liquid-based content.
-footer_content: "Copyright &copy; 2017-2020 Patrick Marsceill. Distributed by an <a href=\"https://github.com/just-the-docs/just-the-docs/tree/main/LICENSE.txt\">MIT license.</a>"
-
-# Footer last edited timestamp
-last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
-last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
-
-# Footer "Edit this page on GitHub" link text
-gh_edit_link: true # show or hide edit this page link
-gh_edit_link_text: "Edit this page on GitHub."
-gh_edit_repository: "https://github.com/just-the-docs/just-the-docs" # the github URL for your repo
-gh_edit_branch: "main" # the branch that your docs is served from
-# gh_edit_source: docs # the source that your files originate from
-gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
-```
-
-_note: `footer_content` is deprecated, but still supported. For a better experience we have moved this into an include called `_includes/footer_custom.html` which will allow for robust markup / liquid-based content._
-
-- the "page last modified" data will only display if a page has a key called `last_modified_date`, formatted in some readable date format
-- `last_edit_time_format` uses Ruby's DateTime formatter; see examples and more information [at this link.](https://apidock.com/ruby/DateTime/strftime)
-- `gh_edit_repository` is the URL of the project's GitHub repository
-- `gh_edit_branch` is the branch that the docs site is served from; defaults to `main`
-- `gh_edit_source` is the source directory that your project files are stored in (should be the same as [site.source](https://jekyllrb.com/docs/configuration/options/))
-- `gh_edit_view_mode` is `"tree"` by default, which brings the user to the github page; switch to `"edit"` to bring the user directly into editing mode
+Una hoja de cálculo es un tipo de documento que permite manipular datos numéricos y alfanuméricos dispuestos en forma de tablas compuestas por celdas, las cuales se suelen organizar en una matriz de filas y columnas.​ La celda es la unidad básica de información en la hoja de cálculo,​ donde se insertan los valores y las fórmulas que realizan los cálculos. Habitualmente es posible realizar cálculos complejos con fórmulas y/o funciones y dibujar diferentes tipos de gráficas.
