@@ -6,7 +6,7 @@ description: "Material didáctico de reforzamiento"
 permalink: /
 ---
 
-# Material didáctico de reforzamiento
+# Material didáctico de reforzamiento 1er. Semestre
 {: .fs-9 }
 
 {% comment %}
